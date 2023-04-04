@@ -1,0 +1,32 @@
+RUMMY
+
+RULES:
+1 Both the players will be given 13 cards in the beginning
+2. The CPU is the dealer, that means the user will begin
+How the user plays:
+The user has to pick a card. She/he can pick either from the face-stack or the down-stack.
+Now the user has the choice to form set/run.
+Run=Pick cads whose numbers are consecutive in order.
+Set=Pick cards with the same suit
+Only 3 cards can be used to from set/run
+Points: Sum of number on cards
+If the user does not from set/run, she/he will have to discard a card
+Method to discard:
+2 clicks on 2 different cards
+1 click on the card to be discarded.
+If the user successfully forms set/run, she/he would not have to discard a card.
+Now the CPU take’s it turn.(The algorithm for this process is in the code)
+The user again takes it’s turn.
+This Cycle repeats till cards of at least one player is finished
+The player with more number of points wins.
+DESCRIPTION OF GUI:
+
+At the top:
+Cards of CPU are placed up-side down.
+To the right of the user are placed the set and run decks  of the CPU.
+In the middle:
+The face-stack and down-stack are placed. The first card of face-stack is visible.
+All the cards of down-stack are placed up-side down.
+At the bottom are placed the cards of the user.
+Beneath the set and run decks of the CPU, are placed the corresponding decks of the user.
+
